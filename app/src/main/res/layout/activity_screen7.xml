@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10sp"
+    tools:context=".Screen7">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="Address"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Tinky Winky Coffee Shop,Dublin Road, Athlone, Co Westmeath, Ireland"
+        android:textColor="#140202"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#407E6D81"
+        android:onClick="openMap"
+        android:padding="30dp"
+        android:text="SEE THE MAP"
+        android:textColor="#673AB7"
+        android:textSize="30sp" />
+</LinearLayout>

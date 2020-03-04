@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.denizoktay.a00268434_denizoktay_androidproject2.SecondC"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <item android:id="@+id/test1"
+        android:title="Main Screen"
+        android:orderInCategory="1"
+        yourapp:showAsAction="ifRoom"
+        />
+
+    <item android:id="@+id/test2"
+        android:title="Welcome Screen"
+        android:orderInCategory="2"
+        yourapp:showAsAction="ifRoom"
+        />
+
+
+
+</menu>

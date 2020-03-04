@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".ThirdC">
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Caffè Americano.........................5€"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Peppermint Hot Chocolate........6€"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Irish Cream Cold Brew................7€"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#8FEEF7"
+        android:text="New Order"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#C6DA08"
+        android:onClick="goShow"
+        android:text="Show My Last Order"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:layout_margin="10dp"
+        android:background="#ECE9E9"
+        android:textColor="#FC0C0C0C"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#E670FA"
+        android:onClick="goSaveAndSecondC3"
+        android:text="complete order"
+        android:textSize="24sp" />
+</LinearLayout>

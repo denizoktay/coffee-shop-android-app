@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBBE1F"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Screen2">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:text="Hi Deniz,"
+        android:textColor="#3F51B5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="378dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:width="130dp"
+            android:background="#FFEF99"
+            android:onClick="openPhone"
+            android:text="Call Us"
+            android:textAllCaps="false"
+            android:textColor="#733A86"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:width="200dp"
+            android:background="#FFEF99"
+            android:onClick="goScreen7"
+            android:text="Address"
+            android:textAllCaps="false"
+            android:textColor="#733A86"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
